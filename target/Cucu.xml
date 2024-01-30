@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="33.918" tests="2" skipped="0" failures="0" errors="0">
+<testcase classname="Facebook Login" name="Login Scenario with Valid Cred - Example #1.1" time="18.338">
+<system-out><![CDATA[
+Given Launch the browser....................................................passed
+And Open the application....................................................passed
+When User Enters the "John" and "12345".....................................passed
+Then Click the login button.................................................passed
+Then Validate the error "Forgotten password?"...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Facebook Login" name="Login Scenario with Valid Cred - Example #1.2" time="15.258">
+<system-out><![CDATA[
+Given Launch the browser....................................................passed
+And Open the application....................................................passed
+When User Enters the "Mr.X" and "shbdeuhfueffru"............................passed
+Then Click the login button.................................................passed
+Then Validate the error "Find your account and log in.".....................passed
+]]></system-out>
+</testcase>
+</testsuite>
